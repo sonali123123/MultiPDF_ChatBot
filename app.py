@@ -69,7 +69,7 @@ def handle_userinput(user_question):
             st.write(bot_template.replace(
                 "{{MSG}}", message.content), unsafe_allow_html=True)
 
-
+# funtion to create a streamlit app
 def main():
     load_dotenv()
     st.set_page_config(page_title="Chat with multiple PDFs",
